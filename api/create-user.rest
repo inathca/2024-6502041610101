@@ -1,0 +1,21 @@
+#Identification(Register)
+POST  http://localhost:8080/auth/local/register
+Content-Type: application/json
+Authorization: Bearer 45b32b5f6c234787aa8aae0e85bd3fc66b76f46c8d0b1efc865eca68f9dd942285571283ff60b3b54dc2653c3da414d89c2937ac27cfdd82e0462429a76cbf39c25b980384bc6c23482920c040ff5df1012d3c12182928cc7039e75bf14eb9ea7173b626b248c0d7f8bb37ea22bc0baaddacd659a418e82276a8897c0d020217
+
+{
+    "username": "natcha",
+    "email": "s650204610101@email.kmutmn.ac.th",
+    "password": "Ntp@ssword"
+}
+
+
+
+#Authentication(Login)
+POST  http://localhost:8080/auth/local
+Content-Type: application/json
+
+{
+    "identilier": "demo@demo.com",
+    "password": "p@ssword"
+}
