@@ -16,6 +16,6 @@ POST  http://localhost:8080/auth/local
 Content-Type: application/json
 
 {
-    "identilier": "demo@demo.com",
-    "password": "p@ssword"
+    "identilier": "natcha",
+    "password": "Ntp@ssword"
 }
