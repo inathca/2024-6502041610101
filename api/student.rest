@@ -1,10 +1,12 @@
-#Identification(Register)
-POST  http://localhost:8080/api/auth/local/register
-Content-Type: application/json
+### Insert Student 1
+POST http://localhost:8080/api/students
 Authorization: Bearer 3068e9773e7a7219fa619a489936fa33985c046d4226b52b8b321c44d3180457a0374a89a426c99f48ee871d73654da2641138d6e65470ed3bc55209ea098e008a5af7745c6307727f467b445e7c71a42081a27d70d2edd8e8f6bc1968b180ba8ed4b53452a6b0d59e48aa941b2f7c0797b0354efa5f6d63e2a4c8829efe6bd8
+Content-Type: application/json
 
 {
-    "username": "natchaeiei",
-    "email": "s650204610101@kmutmn.ac.th",
-    "password": "123456"
+  "data": {
+    "name": "Bambam",
+    "mobile": "0661234567",
+    "cardId": "6502041620018"
+  }
 }
